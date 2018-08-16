@@ -10,6 +10,7 @@
 - import_playbook: ./prepare_host.yml
 - import_playbook: ./deploy_atmosphere.yml
 - import_playbook: ./deploy_troposphere.yml
+- import_playbook: ./setup_ansible_metrics.yml
 
 - name: Configure nginx
   hosts: full_deploy
